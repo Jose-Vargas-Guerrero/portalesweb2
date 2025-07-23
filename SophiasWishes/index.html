@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio - Sophia's Wishes</title>
+  <meta name="description"
+    content="Explora Sophia’s Wishes: lo mejor en cosméticos y fragancias exquisitas para resaltar tu belleza natural. ¡Envíos a toda Honduras!">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="cosmeticos.html">Cosméticos</a></li>
+      <li><a href="perfumeria.html">Perfumería</a></li>
+      <li><a href="contacto.html">Contactanos</a></li>
+    </ul>
+  </nav>
+
+  <header class="header-flex">
+    <div class="logo-container">
+      <a href="index.html">
+        <img src="img/logo.jpg" alt="Sophia's Wishes Logo" class="logo">
+      </a>
+    </div>
+    <div class="texto-container">
+      <h1>Bienvenidos a Sophia’s Wishes</h1>
+      <p>Explora nuestros productos de belleza y fragancias los mejores de Honduras para Damas y Caballeros</p>
+    </div>
+  </header>
+
+  <main class="categories">
+    <div class="category-card" onclick="goTo('cosmeticos.html')">
+      <img src="img/cosmeticos.jpeg" alt="Cosméticos">
+      <div class="card-text">
+      <h2>Cosméticos</h2>
+      <p>La mejor selección para tu piel y estilos que perduran encuentra tus Cosmeticos Deseados</p>
+       </div>
+    </div>
+    <div class="category-card" onclick="goTo('perfumeria.html')">
+      <img src="img/perfumes.jpeg" alt="Perfumería">
+      <div class="card-text">
+      <h2>Perfumería</h2>
+      <p>La mejor selección de Fragancias que encantan y perduran encuentra tus Aromas Deseados</p>
+       </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sophia’s Wishes - Todos los derechos reservados</p>
+  </footer>
+
+  <div class="boton-carrito-container">
+    <a href="carrito.html" class="boton-carrito">
+      🛍️ <span id="carrito-contador" class="contador-carrito">0</span>
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
